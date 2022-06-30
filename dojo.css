@@ -1,0 +1,86 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Button Up*/
+.btn {
+    background-color: deepskyblue;
+    color: white;
+    border: solid 1px black;
+    box-shadow: 5px 5px black;
+}
+
+/*  FLEX-ible Columns */
+.row {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.col {
+    flex: 1;
+    background-color: darkcyan;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Flex Navbar */
+
+.navbar {
+    display: flex;
+    background-color: dimgrey;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Roboto;
+}
+
+.nav-title {
+    color: white;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+a {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+li {
+    margin: 10px;
+}
+
+.nav-links {
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: deepskyblue;
+    color: white;
+    border: solid 1px black;
+    box-shadow: 5px 5px black;
+}
